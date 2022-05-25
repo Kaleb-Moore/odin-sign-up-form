@@ -4,7 +4,11 @@
     padding: 0;
 }
 
-.side-container {
+body {
+    display: flex;
+}
+
+.left-container {
     background-image: url(./img/hanson-lu-tcawH-At75k-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,4 +34,22 @@
 
 .logo {
     height: 200px;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-para {
+    margin-left: 100px;
+    margin-bottom: 100px;
+    width: 50vw;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
 }
