@@ -36,6 +36,16 @@ body {
     height: 200px;
 }
 
+.credit {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+}
+
+.credit a {
+    color: white;
+}
+
 .right-container {
     width: 70vw;
     display: flex;
