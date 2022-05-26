@@ -124,3 +124,16 @@ input {
 a {
     color: rgb(53, 119, 15);
 }
+
+.valid {
+    background-color: rgba(0, 255, 0, .1);
+}
+
+.invalid {
+    background-color: rgba(255, 0, 0, .1);
+}
+
+.error-text {
+    font-size: 12px;
+    color: red;
+}
